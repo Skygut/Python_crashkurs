@@ -108,8 +108,7 @@
 
 ###############################################################
 
-# Schnluessel-Wert-Paare entfehnen
-
+"""Schnluessel-Wert-Paare entfehnen"""
 # alien_0 = {"color": "green", "points": 5}
 # print(alien_0)
 # Output: {"color": "green", "points": 5}
@@ -120,4 +119,83 @@
 
 ###############################################################
 
-# Ein Dictionary aus aehnlichen Objekten
+"""Dictionaries in einer Liste"""
+#
+# alien_0 = {"color": "green", "points": 5}
+# alien_1 = {"color": "yellow", "points": 10}
+# alien_2 = {"color": "red", "points": 15}
+
+# aliens = [alien_0, alien_1, alien_2]
+
+# for alien in aliens:
+#     print(alien)
+
+# output:
+# {'color': 'green', 'points': 5}
+# {'color': 'yellow', 'points': 10}
+# {'color': 'red', 'points': 15}
+
+###############################################################
+"""Erstelle eine leere Liste zum Speichern der Schiffe"""
+
+# aliens = []
+
+# # Erstelle 30 gruene Schiffe
+
+# for aliens_number in range(30):
+#     new_alien = {"color": "green", "points": 5, "speed": "slow"}
+#     aliens.append(new_alien)
+
+# # Zeige die ersten 5 Schiffe am:
+# for alien in aliens[:5]:
+#     print(alien)
+# print("...")
+
+# # Gibt an, wie viele Schiffe erstellt wurden.
+# print(f"Total number of aliens: {len(aliens)}")
+
+# # # output:
+# # {'color': 'green', 'points': 5}
+# # {'color': 'green', 'points': 5}
+# # {'color': 'green', 'points': 5}
+# # {'color': 'green', 'points': 5}
+# # {'color': 'green', 'points': 5}
+# # ...
+# # Total number of aliens: 30
+
+
+###############################################################
+
+"""Erstelle eine leere Liste zum Speichern der Schiffe"""
+
+# aliens = []
+
+# # Erstelle 30 gruene Schiffe
+
+# for aliens_number in range(30):
+#     new_alien = {"color": "green", "points": 5, "speed": "slow"}
+#     aliens.append(new_alien)
+
+
+# for alien in aliens[:3]:
+#     if alien["color"] == "green":
+#         alien["color"] = "yellow"
+#         alien["speed"] = "medium"
+#         alien["points"] = 10
+
+# # Zeige die ersten 5 Schiffe am:
+# for alien in aliens[:5]:
+#     print(alien)
+# print("...")
+
+# # Gibt an, wie viele Schiffe erstellt wurden.
+# print(f"Total number of aliens: {len(aliens)}")
+
+# # # output:
+# # {'color': 'yellow', 'points': 10, 'speed': 'medium'}
+# # {'color': 'yellow', 'points': 10, 'speed': 'medium'}
+# # {'color': 'yellow', 'points': 10, 'speed': 'medium'}
+# # {'color': 'green', 'points': 5, 'speed': 'slow'}
+# # {'color': 'green', 'points': 5, 'speed': 'slow'}
+# # ...
+# # Total number of aliens: 30
