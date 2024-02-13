@@ -16,7 +16,7 @@ person_3 = {
     "alter": 35,
     "hobbi": "Travel",
 }
-men_1 = person_1.get("city", "Dieser Wert gibt es nicht!")
+men_1 = person_1.get("city", "Diesen Wert gibt es nicht!")
 print(men_1)
 men_1_vorname = person_1.get("nachname", "no excist").title()
 print(men_1_vorname)
