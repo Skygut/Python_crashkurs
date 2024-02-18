@@ -13,19 +13,21 @@
 #     else:
 #         print(f"Ihre Pizza mit der Komponente '{componente.title()}' wird zubereitet!")
 
+
+################################################################
 # Zweite Variante mit active = True
 # while active:
 
-prompt = "\nIhre Komponente bitte: "
+# prompt = "\nIhre Komponente bitte: "
 
-active = True
+# active = True
 
-while active:
+# while active:
 
-    componente = input(prompt)
+#     componente = input(prompt)
 
-    if componente == "q":
-        active = False
-        print("\nDas Programma wird beaendet")
-    else:
-        print("Ihre Komponente ist {componente.title()} und wird zubereitet")
+#     if componente == "q":
+#         active = False
+#         print("\nDas Programma wird beaendet")
+#     else:
+#         print("Ihre Komponente ist {componente.title()} und wird zubereitet")
