@@ -1,9 +1,9 @@
 # Ein Dictionary mit Benutzereingabe fuellen
-
+# Leere Dictionary anlegen
 responses = {}
 
 # Richtet ein Flag ein, um anyugeben, dass die Umfrage aktive bleiben soll.
-
+# Das Flag einsetzen
 polling_active = True
 
 while polling_active:
@@ -20,6 +20,6 @@ while polling_active:
         polling_active = False
 
 # Die Umfrage ist abgeschlossen, die Ergebnisse werden angezeigt.
-print("\n--- Poll Resukts ---")
+print("\n--- Poll Results ---")
 for name, response in responses.items():
     print(f"{name.title()} would like to climb {response.title()}. ")
