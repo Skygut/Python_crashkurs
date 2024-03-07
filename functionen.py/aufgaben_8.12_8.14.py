@@ -44,29 +44,29 @@ Hier ist ihre Pizza mit folgenden Fuellungen:
 # Aufgabe 8-13
 
 
-# def build_profile(first, last, **user_info):
-#     """Build a dictionary containing everything we know about a user."""
-#     user_info["first_name"] = first
-#     user_info["last_name"] = last
-#     return user_info
+def build_profile(first, last, **user_info):
+    """Build a dictionary containing everything we know about a user."""
+    user_info["first_name"] = first
+    user_info["last_name"] = last
+    return user_info
 
 
-# user_profile = build_profile(
-#     "Volodymyr",
-#     "Chub",
-#     location="Vechta",
-#     field="Data Science",
-# )
+user_profile = build_profile(
+    "Volodymyr",
+    "Chub",
+    location="Vechta",
+    field="Data Science",
+)
 
-# print(user_profile)
+print(user_profile)
 
 # # Output:
-# {
-#     "location": "Vechta",
-#     "field": "Data Science",
-#     "first_name": "Volodymyr",
-#     "last_name": "Chub",
-# }
+{
+    "location": "Vechta",
+    "field": "Data Science",
+    "first_name": "Volodymyr",
+    "last_name": "Chub",
+}
 
 ##############################################################
 
@@ -89,13 +89,13 @@ Hier ist ihre Pizza mit folgenden Fuellungen:
 
 # print(car)
 
-"""
-Output
+# """
+# Output
 
-{
-    "color": "black",
-    "ausstattung": "voll",
-    "marke": "BMW",
-    "modell": "M1",
-}
-"""
+# {
+#     "color": "black",
+#     "ausstattung": "voll",
+#     "marke": "BMW",
+#     "modell": "M1",
+# }
+# """
